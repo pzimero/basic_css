@@ -1,0 +1,37 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.new-color {
+    color: #b08bbb;
+    
+}
+
+#assignment-instructions {
+    color: #b5d5c5;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+
+/* this line of code makes everything except the first one blackbackground and white_text */
+li + li {
+    background: black;
+    color: white;
+}
+/* 
+another way to have the same style, without combinators is commented out 
+
+li {
+    background: _black;
+    color: _white;
+} */
+
+ol li {
+    background: black;
+    color: white;
+}
